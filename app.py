@@ -11,8 +11,9 @@ from health_score import calculate_health_score
 
 st.title("AI Personal Finance Behavior Analyzer")
 
-st.sidebar.title("Controls")
-file = st.sidebar.file_uploader("Upload CSV", type=["csv"])
+file = st.file_uploader("Upload CSV", type=["csv"])
+
+
 if file:
     df = load_data(file)
     df = add_features(df)
