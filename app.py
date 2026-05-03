@@ -1,10 +1,10 @@
 import streamlit as st
-from src.preprocessing import load_data, add_features
-from src.classifier import apply_categories
-from src.anomaly import detect_anomalies
-from src.forecast import forecast_balance
-from src.insights import generate_insights
-from src.health_score import calculate_health_score
+from preprocessing import load_data, add_features
+from classifier import apply_categories
+from anomaly import detect_anomalies
+from forecast import forecast_balance
+from insights import generate_insights
+from health_score import calculate_health_score
 
 st.title("AI Personal Finance Behavior Analyzer")
 
