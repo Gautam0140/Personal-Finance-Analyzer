@@ -23,9 +23,7 @@ if file:
     st.write(detect_anomalies(df))
     forecast = forecast_balance(df)
     st.line_chart(forecast.set_index('ds')['yhat'])
-    st.subheader("📈 Monthly Spending Trend")
-monthly = df.groupby('month')['amount'].sum()
-st.line_chart(monthly)
+    
 
     for i in generate_insights(df):
         st.write("- " + i)
