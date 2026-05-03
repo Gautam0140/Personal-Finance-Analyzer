@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.getcwd())
 import streamlit as st
 from preprocessing import load_data, add_features
 from classifier import apply_categories
