@@ -1,0 +1,25 @@
+# 💰 AI Personal Finance Behavior Analyzer
+
+## 🚀 Overview
+An AI-powered web app that analyzes user spending behavior, predicts future balance, detects anomalies, and provides actionable financial insights.
+
+## 🔥 Features
+- Expense categorization
+- Anomaly detection (Isolation Forest)
+- Balance forecasting (Prophet)
+- Financial health score
+- AI-based insights
+
+## 🧠 Tech Stack
+- Python, Pandas, NumPy
+- Scikit-learn
+- Prophet
+- Streamlit
+
+## 📊 Use Case
+Helps users understand spending patterns and improve financial decisions.
+
+## 🌐 Live Demo
+https://personal-finance
+-analyzer-gautam.streamlit.app
+
